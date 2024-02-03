@@ -1,0 +1,13 @@
+// some code have namespace so the section of 
+// in between namespace is avoid same name of function or class
+using System;
+
+   public class HelloWorld{
+       public static void Main(){
+           // WriteLine function is to show output
+           Console.WriteLine("Helllo,World");
+           //ReadLine to make the command prompt to stay untill
+           // you press enter 
+           Console.ReadLine();
+       }
+   }
