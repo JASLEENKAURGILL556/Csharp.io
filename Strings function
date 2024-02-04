@@ -1,0 +1,22 @@
+
+using System;
+class HelloWorld {
+  static void Main() {
+      // data types string , int , float;
+      string name="Hello,World";
+      // Length function to check the length of string
+      Console.WriteLine(name.Length);
+      //IndexOf function to find index value of character
+      Console.WriteLine(name.IndexOf('W'));
+      //Substring function to get substring (starting , ending)
+      Console.WriteLine(name.Substring(0,5));
+      //[] is used to get character of that index value in string
+      Console.WriteLine(name[6]);
+      //Contains function to check is substring contained or not return boolean value
+      Console.WriteLine(name.Contains("orld"));
+      // ToUpper to make string upper case
+      Console.WriteLine(name.ToUpper());
+      // ToLower to make string Lower case 
+      Console.WriteLine(name.ToLower());
+  }
+}
