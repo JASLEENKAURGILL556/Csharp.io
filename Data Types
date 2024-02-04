@@ -1,0 +1,13 @@
+
+using System;
+class HelloWorld {
+  static void Main() {
+      // data types string , int , double;
+      string name="Jas";
+      int age=21;
+      double marks=96.5;
+      Console.WriteLine("Name:"+name);
+      Console.WriteLine("Age:"+age);
+    Console.WriteLine("Marks:"+marks);
+  }
+}
