@@ -1,0 +1,13 @@
+
+using System;
+class HelloWorld {
+  static void Main() {
+      // Write help in taking input from user
+      Console.Write("Your name :");
+      // ReadLine will read the input and store in the variable
+      string name=Console.ReadLine();
+      // WriteLine will show the output to the user
+      Console.WriteLine("Hello, "+name);
+      Console.ReadLine();
+  }
+}
