@@ -1,0 +1,10 @@
+using System;
+class HelloWorld {
+  static void Main() {
+      Console.WriteLine(Math.Max(4,90));
+      Console.WriteLine(Math.Pow(3.8,2));
+      Console.WriteLine(Math.Sqrt(4));
+      Console.WriteLine(Math.Min(93,78));
+      Console.WriteLine(Math.Round(56.32));
+  }
+}
